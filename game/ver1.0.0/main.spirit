@@ -1,4 +1,17 @@
 <root>
-  <spawner field="spawner">jp.gr.java_conf.polyhedron.samplegame.crosskey.ControllerSpawner</spawner>
-  <outermost field="view">view.spirit</outermost>
+  <spawner field="spawner">jp.gr.java_conf.polyhedron.splittersprite3.vanilla.CycleSpawner</spawner>
+  <string field="開始モード名">mode</string>
+  <inner field="モード設定">
+    <inner field="mode">
+      <spawner field="spawner">jp.gr.java_conf.polyhedron.samplegame.crosskey.ModeSpawner</spawner>
+      <inner field="エフェクト群">
+        <outermost field="000">effect.spirit</outermost>
+      </inner>
+      <inner field="モード遷移内容">
+        <inner field="base">
+          <spawner field="spawner">jp.gr.java_conf.polyhedron.splittersprite3.vanilla.StaySpawner</spawner>
+        </inner>
+      </inner>
+    </inner>
+  </inner>
 </root>

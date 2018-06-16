@@ -1,0 +1,7 @@
+<root>
+  <spawner field="spawner">jp.gr.java_conf.polyhedron.samplegame.crosskey.EffectSpawner</spawner>
+  <image field="上">image/Up.png</image>
+  <image field="下">image/Down.png</image>
+  <image field="左">image/Left.png</image>
+  <image field="右">image/Right.png</image>
+</root>
